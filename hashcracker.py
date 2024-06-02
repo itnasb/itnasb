@@ -35,7 +35,7 @@ def process(hashes, wordlist, htype):
     return result
 
 
-#using tuple syntax to begin program and get the final values in order to print them
+#begin program and get the final values in order to print them
 crackedpass = getfile(sys.argv) #sending the command line arguments to getfile()
 print("\n")
 if isinstance(crackedpass[0], list):
